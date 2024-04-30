@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.houses{
+    display: flex;
+    margin: auto;
+    gap: 3rem;
+    flex-wrap: wrap ;
+}
+
+.house img{
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+
+.house{
+    width: 30vh;
+    height: 6rem;
+    border-radius: 0,7rem;
+}
